@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Editor / OS cruft
+*.swp
+Thumbs.db
+
+# Vercel
+.vercel
+
+# Node (in case tooling is added later)
+node_modules/
