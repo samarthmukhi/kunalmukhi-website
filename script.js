@@ -13,7 +13,7 @@
    Until a key is set, the form falls back to opening the visitor's
    email app pre-filled to kunal.mukhi@gmail.com (still works).
    ----------------------------------------------------------- */
-const WEB3FORMS_ACCESS_KEY = "YOUR_WEB3FORMS_ACCESS_KEY";
+const WEB3FORMS_ACCESS_KEY = "e5ce9d70-832c-4174-8fdb-a6e56abac74d";
 const FALLBACK_EMAIL = "kunal.mukhi@gmail.com";
 
 /* ---------- Footer year ---------- */
