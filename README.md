@@ -8,7 +8,7 @@ the gravitas of an established, third-generation insurance practice.
 
 ## Highlights
 
-- Single-page, fully responsive landing site (desktop → mobile)
+- Multi-page, fully responsive site — Home · About · Products · Contact (desktop → mobile)
 - Institutional "high-finance" visual identity — deep navy, restrained gold, editorial serif
 - Personal focus: hero portrait, first-person **Vision**, third-generation heritage
 - Dedicated **Products** page (general, life & health taxonomy)
@@ -20,10 +20,12 @@ the gravitas of an established, third-generation insurance practice.
 Plain, dependency-free static site — HTML, CSS and vanilla JavaScript. No build step.
 
 ```
-index.html      → home (hero, vision, about, partners, track record, contact)
+index.html      → home (hero, vision snapshot, partners, capabilities, CTA)
+about.html      → bio, full vision, third-generation heritage, track record
 products.html   → full product range (general / life / health)
-styles.css      → styling (shared across pages)
-script.js       → nav, scroll reveals, contact form
+contact.html    → enquiry form + phone / email / office / LinkedIn
+styles.css      → styling (shared across all pages)
+script.js       → nav, scroll reveals, contact form (guarded per page)
 assets/         → portrait imagery
 ```
 

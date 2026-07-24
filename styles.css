@@ -404,9 +404,14 @@ a.contact__v:hover { color: var(--gold); }
 
 /* ===== Product CTA band ===== */
 .prod-cta__inner { display: flex; align-items: center; justify-content: space-between; gap: 28px 40px; flex-wrap: wrap; }
-.prod-cta__inner > div { max-width: 620px; }
-.prod-cta h2 { color: var(--white); font-size: clamp(1.7rem, 3.2vw, 2.4rem); margin-top: 6px; }
-.prod-cta .section__sub { color: rgba(255,255,255,.62); }
+.prod-cta__inner > div { max-width: 640px; }
+.prod-cta h2 { font-size: clamp(1.7rem, 3.2vw, 2.4rem); margin-top: 6px; }
+.section--dark.prod-cta h2 { color: var(--white); }
+.section--dark.prod-cta .section__sub { color: rgba(255,255,255,.62); }
+
+/* ===== Vision snapshot (home) ===== */
+.vision-snap__inner { max-width: 960px; }
+.vision-snap .vision__statement { margin-bottom: 34px; max-width: 24ch; }
 
 /* ===== Responsive ===== */
 @media (max-width: 900px) {

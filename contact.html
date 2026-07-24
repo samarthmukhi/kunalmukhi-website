@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Kunal Mukhi · Insurance Services (Group) India</title>
+  <meta name="description" content="Get in touch with Kunal Mukhi for a no-obligation insurance consultation — general, life and health cover. Call +91 98186 66620 or send an enquiry; existing policies welcome for review." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Utility bar ===== -->
+  <div class="utility">
+    <div class="wrap utility__inner">
+      <span class="utility__tag">Authorised Insurance Advisor · Pan-India Service · New Delhi</span>
+      <div class="utility__contact">
+        <a href="tel:+919818666620">+91 98186 66620</a>
+        <span class="sep">·</span>
+        <a href="mailto:kunal.mukhi@gmail.com">kunal.mukhi@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a href="index.html" class="brand"><span class="brand__name">Kunal Mukhi</span></a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="index.html#partners">Partners</a>
+        <a href="contact.html" class="nav__cta" aria-current="page">Get in Touch</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Page hero ===== -->
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a> <span aria-hidden="true">/</span> <span>Contact</span>
+      </nav>
+      <p class="eyebrow eyebrow--gold">Get in Touch</p>
+      <h1 class="page-hero__title">Let's find the right cover for you.</h1>
+      <p class="page-hero__lede">
+        Share a few details and Kunal will personally respond — typically within one business
+        day. No obligation, and existing policies are welcome for a free review.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section" id="contact">
+    <div class="wrap contact">
+      <div class="contact__intro">
+        <p class="kicker">Reach Kunal directly</p>
+        <h2>Advice, not a sales pitch.</h2>
+        <p class="section__sub">
+          Whether you're starting fresh or reviewing what you already hold, Kunal will talk
+          you through the options in plain language.
+        </p>
+        <ul class="contact__list">
+          <li>
+            <span class="contact__k">Telephone</span>
+            <a class="contact__v" href="tel:+919818666620">+91 98186 66620</a>
+          </li>
+          <li>
+            <span class="contact__k">Email</span>
+            <a class="contact__v" href="mailto:kunal.mukhi@gmail.com">kunal.mukhi@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact__k">Office</span>
+            <span class="contact__v">O-55, West Patel Nagar,<br />New Delhi 110008, India</span>
+          </li>
+          <li>
+            <span class="contact__k">LinkedIn</span>
+            <a class="contact__v" href="https://www.linkedin.com/in/kunalmukhi-83765b1a" target="_blank" rel="noopener">in/kunalmukhi</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="formcard">
+        <form id="contactForm" class="form" novalidate>
+          <div class="field">
+            <label for="name">Full name <span aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required />
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="email">Email <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="interest">Area of interest</label>
+            <select id="interest" name="interest">
+              <option value="General Insurance (Motor / Property)">General Insurance (Motor / Property)</option>
+              <option value="Life Insurance">Life Insurance</option>
+              <option value="Health Insurance">Health Insurance</option>
+              <option value="Policy Review / Advice">Policy Review / Advice</option>
+              <option value="Become an Agent">Become an Agent</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">How can we help? <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <!-- honeypot: hidden from users, catches bots -->
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" />
+          <button type="submit" class="btn btn--dark form__submit">
+            <span class="form__submit-label">Send request</span>
+            <span class="form__spinner" aria-hidden="true"></span>
+          </button>
+          <p class="form__note">By submitting, you consent to be contacted about your enquiry. Your details are never shared.</p>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="wrap footer__top">
+      <div class="footer__brand">
+        <div class="brand brand--footer">
+          <span class="brand__mark">KM</span>
+          <span class="brand__text">
+            <span class="brand__name">Kunal Mukhi</span>
+            <span class="brand__sub">Insurance Services (Group) India</span>
+          </span>
+        </div>
+        <p class="footer__blurb">
+          A New Delhi insurance advisory serving clients pan-India. Authorised agent for
+          India's leading general, life &amp; health insurers since 2004.
+        </p>
+      </div>
+      <nav class="footer__col" aria-label="Sections">
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Kunal</a>
+        <a href="products.html">Products</a>
+        <a href="index.html#partners">Insurer Partners</a>
+      </nav>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="tel:+919818666620">+91 98186 66620</a>
+        <a href="mailto:kunal.mukhi@gmail.com">kunal.mukhi@gmail.com</a>
+        <span>O-55, West Patel Nagar,<br />New Delhi 110008, India</span>
+      </div>
+    </div>
+    <div class="wrap footer__bottom">
+      <p>© <span id="year"></span> Insurance Services (Group) India. All rights reserved.</p>
+      <p class="footer__disc">Insurance is a subject matter of solicitation. Products are offered through authorised insurer partners.</p>
+    </div>
+    <div class="footer__credit-bar">
+      <p class="footer__credit">
+        Built with <span class="footer__heart" aria-hidden="true">❤️</span> by
+        <a href="https://samarthmukhi.com" target="_blank" rel="noopener noreferrer">Samarth Mukhi</a>
+        <span class="footer__credit-sep" aria-hidden="true">·</span>
+        <a href="https://www.linkedin.com/in/samarthmukhi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
