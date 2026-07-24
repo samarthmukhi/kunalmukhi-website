@@ -63,8 +63,9 @@ if ("IntersectionObserver" in window) {
   revealEls.forEach((el) => el.classList.add("is-in"));
 }
 
-/* ---------- Contact form ---------- */
+/* ---------- Contact form (only runs on pages that include it) ---------- */
 const form = document.getElementById("contactForm");
+if (form) {
 const statusEl = form.querySelector(".form__status");
 const submitBtn = form.querySelector(".form__submit");
 const labelEl = form.querySelector(".form__submit-label");
@@ -177,3 +178,4 @@ form.addEventListener("submit", async (e) => {
     labelEl.textContent = "Send request";
   }
 });
+}

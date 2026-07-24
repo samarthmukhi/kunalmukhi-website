@@ -11,7 +11,8 @@ the gravitas of an established, third-generation insurance practice.
 - Single-page, fully responsive landing site (desktop → mobile)
 - Institutional "high-finance" visual identity — deep navy, restrained gold, editorial serif
 - Personal focus: hero portrait, first-person **Vision**, third-generation heritage
-- Featured insurer partners: IFFCO-Tokio, Reliance General, ICICI Lombard
+- Dedicated **Products** page (general, life & health taxonomy)
+- Featured insurer partners: ICICI Lombard, LIC of India, Manipal Cigna
 - Working **contact form** (Web3Forms, with an email-app fallback)
 
 ## Tech
@@ -19,8 +20,9 @@ the gravitas of an established, third-generation insurance practice.
 Plain, dependency-free static site — HTML, CSS and vanilla JavaScript. No build step.
 
 ```
-index.html      → markup
-styles.css      → styling
+index.html      → home (hero, vision, about, partners, track record, contact)
+products.html   → full product range (general / life / health)
+styles.css      → styling (shared across pages)
 script.js       → nav, scroll reveals, contact form
 assets/         → portrait imagery
 ```
